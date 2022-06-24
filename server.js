@@ -27,6 +27,14 @@ app.get('/feedback', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
 );
 
+
+app.get('*', (req,res) => 
+res.send('ERROR ERROR ERROR ERROR ERROR 404 ERROR')
+);
+
+
+
+
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
