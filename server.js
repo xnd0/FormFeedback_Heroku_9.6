@@ -33,8 +33,6 @@ res.send('ERROR ERROR ERROR ERROR ERROR 404 ERROR')
 );
 
 
-
-
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
